@@ -32,6 +32,12 @@ nginx -s stop
 nginx -s quit
 ```
 
+重启
+
+```bash
+nginx -s reload
+```
+
 http 模块参数解释
 
 - default_type: 默认返回类型
