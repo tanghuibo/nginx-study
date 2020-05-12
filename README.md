@@ -47,6 +47,9 @@ http 模块参数解释
 - server_name: 相同端口下根据host分发
 - add_header: 添加头
 - proxy_hide_header: 隐藏头
+- autoindex: 开启文件试图（访问文件夹路径是是否展示界面）
+- autoindex_exact_size: on表示文件大小以byte显示 off会做单位转换
+- autoindex_localtime: on表示文件为GMT时间（分时区） off表示用服务器时间
 
 https配置
 
